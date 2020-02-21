@@ -15,7 +15,7 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>C:\Users\jlerona\uiFramework\testFramework/src/main/resources/reports/extent.html</title>
+	<title>C:\Users\janwa\git\testFramework/src/main/resources/reports/extent.html</title>
 
 	<style type='text/css'>
 	</style>
@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 19, 2020 01:40:54 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 20, 2020 10:22:55 PM</span>
 				</a>
 			</li>
 			<li>
@@ -124,15 +124,15 @@
 				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Test1</span>
-						<span class='test-time'>Feb 19, 2020 01:41:02 PM</span>
+						<span class='test-name'>LoginTest</span>
+						<span class='test-time'>Feb 20, 2020 10:23:08 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 19, 2020 01:41:02 PM</span>
-	<span class='label end-time'>Feb 19, 2020 01:41:03 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+46ms</span>
+	<span class='label start-time'>Feb 20, 2020 10:23:08 PM</span>
+	<span class='label end-time'>Feb 20, 2020 10:23:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+347ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -146,33 +146,24 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>1:41:02 PM</td>
-					<td class='step-details'>testLogin**************test started***************</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>1:41:02 PM</td>
-					<td class='step-details'>testLogin is pass</td>
+					<td class='timestamp'>10:23:08 PM</td>
+					<td class='step-details'>testLoginToApplication**************test started***************</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>1:41:02 PM</td>
-					<td class='step-details'>testLogin1**************test started***************</td>
+					<td class='timestamp'>10:23:20 PM</td>
+					<td class='step-details'>navigating to ...https://f13-works-qa-retail.myshopify.com/admin/apps</td>
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>1:41:02 PM</td>
-					<td class='step-details'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.uiFramework.companyName.bhanuProjectName.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:33)
-	at com.uiFramework.companyName.bhanuProjectName.testScripts.Test1.testLogin1(Test1.java:18)
+					<td class='timestamp'>10:23:20 PM</td>
+					<td class='step-details'><textarea>java.lang.NullPointerException
+	at com.uiFramework.f13Works.uatProductPro.pageObject.LoginPage.<init>(LoginPage.java:62)
+	at com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplication(LoginTest.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
@@ -181,7 +172,7 @@
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.ArrayList.forEach(Unknown Source)
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
@@ -197,69 +188,13 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>1:41:03 PM</td>
-					<td class='step-details'>testLogin2**************test started***************</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>1:41:03 PM</td>
-					<td class='step-details'>testLogin2 is pass</td>
-				</tr>
-				<tr class='log' status='info'>
-					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>1:41:03 PM</td>
-					<td class='step-details'>testLogin3**************test started***************</td>
-				</tr>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>1:41:03 PM</td>
-					<td class='step-details'><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.uiFramework.companyName.bhanuProjectName.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:33)
-	at com.uiFramework.companyName.bhanuProjectName.testScripts.Test1.testLogin3(Test1.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
+</textarea></td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin1_19_02_2020_01_41_02.png' width='10%' src='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin1_19_02_2020_01_41_02.png' data-src='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin1_19_02_2020_01_41_02.png'></li>
-								<li><img data-featherlight='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin3_19_02_2020_01_41_03.png' width='10%' src='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin3_19_02_2020_01_41_03.png' data-src='C:\Users\jlerona\uiFramework\testFramework\src\main\resources\screenShots\testLogin3_19_02_2020_01_41_03.png'></li>
+								<li><img data-featherlight='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png' width='10%' src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png' data-src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -311,10 +246,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='25%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='50%'>4</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> others
 				</div>
 			</div>
 		</div>
@@ -351,7 +286,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.AssertionError</span>
+                                <span class='exception-name'>java.lang.NullPointerException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -366,19 +301,15 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Feb 19, 2020 01:41:02 PM</td>
-                                                        <td class='linked' test-id='1'>Test1</td>
-                                                        <td><pre><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.uiFramework.companyName.bhanuProjectName.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:33)
-	at com.uiFramework.companyName.bhanuProjectName.testScripts.Test1.testLogin1(Test1.java:18)
+                                                        <td>Feb 20, 2020 10:23:08 PM</td>
+                                                        <td class='linked' test-id='1'>LoginTest</td>
+                                                        <td><pre><textarea>java.lang.NullPointerException
+	at com.uiFramework.f13Works.uatProductPro.pageObject.LoginPage.<init>(LoginPage.java:62)
+	at com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplication(LoginTest.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
@@ -387,7 +318,7 @@
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.ArrayList.forEach(Unknown Source)
 	at org.testng.TestRunner.privateRun(TestRunner.java:770)
 	at org.testng.TestRunner.run(TestRunner.java:591)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
@@ -403,47 +334,7 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></pre></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Feb 19, 2020 01:41:02 PM</td>
-                                                        <td class='linked' test-id='1'>Test1</td>
-                                                        <td><pre><pre>java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.uiFramework.companyName.bhanuProjectName.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:33)
-	at com.uiFramework.companyName.bhanuProjectName.testScripts.Test1.testLogin3(Test1.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></pre></td>
+</textarea></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -475,25 +366,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 19, 2020 01:40:54 PM</div>
+					<div class='panel-lead'>Feb 20, 2020 10:22:55 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 19, 2020 01:41:03 PM</div>
+			 		<div class='panel-lead'>Feb 20, 2020 10:23:22 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 8s+898ms</div>
+					<div class='panel-lead'>0h 0m 26s+959ms</div>
 				</div>
 			</div>
 		</div>
@@ -514,14 +405,14 @@
 				skipParent: 0,
 				exceptionsParent: 1,
 				
-				passChild: 2,
-				failChild: 2,
+				passChild: 0,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 4,
-				exceptionsChild: 2,
+				infoChild: 2,
+				exceptionsChild: 1,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

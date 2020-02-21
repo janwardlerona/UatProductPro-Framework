@@ -259,3 +259,123 @@
 2020-02-19 13:02:111 INFO  TestBase:76 - **************testLogin3Started***************
 2020-02-19 13:02:113 INFO  AssertionHelper:32 - making script FAIL..
 2020-02-19 13:02:411 INFO  TestBase:94 - **************testLogin3Finished***************
+2020-02-20 21:02:117 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:172 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:173 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:239 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:249 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:596 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:898 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:450 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (51b37c5c8b4223cbdc1d412d2c877342)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2020-02-20 21:02:74 INFO  WaitHelper:159 - element is visible now
+2020-02-20 21:02:75 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:99 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:17 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:80 INFO  LoginPage:69 - clicked on sign in link...
+2020-02-20 21:02:830 INFO  LoginPage:75 - entering email address....1529686406836@gmail.com
+2020-02-20 21:02:25 INFO  LoginPage:81 - entering password....password
+2020-02-20 21:02:198 INFO  LoginPage:87 - clicking on submit button...
+2020-02-20 21:02:200 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:201 INFO  JavaScriptHelper:88 - scrolling down vertically...
+2020-02-20 21:02:425 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:454 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (51b37c5c8b4223cbdc1d412d2c877342)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] for :200 seconds
+2020-02-20 21:02:484 INFO  WaitHelper:159 - element is visible now
+2020-02-20 21:02:485 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:485 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:893 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:260 ERROR VerificationHelper:31 - element is not Displayed..
+2020-02-20 21:02:161 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:277 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:279 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:346 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:355 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:767 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:836 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:837 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:839 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:556 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:580 INFO  LoginPage:75 - entering email address....26929004604@app.f13works.com
+2020-02-20 21:02:632 INFO  TestBase:94 - **************testLoginToApplicationFinished***************
+2020-02-20 21:02:554 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:561 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:562 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:624 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:628 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:810 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:721 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:722 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:789 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:111 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:131 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:131 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:158 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:163 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:362 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:963 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:965 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:968 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:424 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:477 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:478 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:566 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:573 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:782 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:617 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:323 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 21:02:375 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:375 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 21:02:438 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 21:02:449 INFO  WaitHelper:146 - page is loaded
+2020-02-20 21:02:665 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 21:02:30 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 21:02:32 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 21:02:57 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 21:02:778 INFO  WaitHelper:156 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a' for :200 seconds
+2020-02-20 21:02:333 INFO  TestBase:94 - **************testLoginToApplicationFinished***************
+2020-02-20 22:02:656 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 22:02:713 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 22:02:714 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 22:02:743 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 22:02:765 INFO  WaitHelper:146 - page is loaded
+2020-02-20 22:02:188 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 22:02:275 INFO  LoginPage:72 - entering email address....26929004604@app.f13works.com
+2020-02-20 22:02:361 INFO  LoginPage:78 - entering password....26929004604
+2020-02-20 22:02:544 INFO  LoginPage:84 - clicking on submit button...
+2020-02-20 22:02:675 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 22:02:196 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 22:02:214 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 22:02:215 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 22:02:254 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 22:02:262 INFO  WaitHelper:146 - page is loaded
+2020-02-20 22:02:524 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 22:02:847 INFO  TestBase:94 - **************testLoginToApplicationFinished***************
+2020-02-20 22:02:440 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 22:02:676 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 22:02:678 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 22:02:913 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 22:02:931 INFO  WaitHelper:146 - page is loaded
+2020-02-20 22:02:170 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 22:02:268 INFO  TestBase:94 - **************testLoginToApplicationFinished***************
+2020-02-20 22:02:955 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 22:02:174 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 22:02:174 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 22:02:245 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 22:02:254 INFO  WaitHelper:146 - page is loaded
+2020-02-20 22:02:682 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 22:02:78 INFO  TestBase:94 - **************testLoginToApplicationFinished***************
+2020-02-20 23:02:562 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-20 23:02:672 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 23:02:674 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-20 23:02:765 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-20 23:02:770 INFO  WaitHelper:146 - page is loaded
+2020-02-20 23:02:127 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-20 23:02:971 INFO  LoginPage:75 - entering email address....26929004604@app.f13works.com
+2020-02-20 23:02:388 INFO  LoginPage:81 - entering password....26929004604
+2020-02-20 23:02:835 INFO  LoginPage:87 - clicking on submit button...
+2020-02-20 23:02:488 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-20 23:02:27 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (99a9f6e262706d13566c5edfe63be7e5)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-20 23:02:200 INFO  WaitHelper:159 - element is visible now
+2020-02-20 23:02:201 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-20 23:02:316 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 23:02:08 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-20 23:02:421 ERROR VerificationHelper:31 - element is not Displayed..
