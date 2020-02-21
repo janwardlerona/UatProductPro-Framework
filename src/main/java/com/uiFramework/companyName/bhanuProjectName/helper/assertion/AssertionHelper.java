@@ -6,7 +6,7 @@ import org.testng.Assert;
 import com.uiFramework.companyName.bhanuProjectName.helper.logger.LoggerHelper;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class AssertionHelper {

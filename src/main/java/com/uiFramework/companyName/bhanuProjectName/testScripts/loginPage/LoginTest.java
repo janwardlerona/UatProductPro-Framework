@@ -10,7 +10,7 @@ import com.uiFramework.companyName.bhanuProjectName.pageObject.LoginPage;
 import com.uiFramework.companyName.bhanuProjectName.testbase.TestBase;
 /**
  * 
- * @author Bhanu Pratap
+ * @author 
  */
 public class LoginTest extends TestBase{
 	private final Logger log = LoggerHelper.getLogger(LoginTest.class);

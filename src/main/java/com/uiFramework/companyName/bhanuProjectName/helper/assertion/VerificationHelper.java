@@ -8,7 +8,7 @@ import com.uiFramework.companyName.bhanuProjectName.helper.logger.LoggerHelper;
 import com.uiFramework.companyName.bhanuProjectName.testbase.TestBase;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class VerificationHelper {
