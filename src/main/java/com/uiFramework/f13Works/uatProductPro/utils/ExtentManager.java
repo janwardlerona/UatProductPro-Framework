@@ -7,7 +7,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.uiFramework.f13Works.uatProductPro.helper.resource.ResourceHelper;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class ExtentManager {

@@ -8,7 +8,7 @@ import com.uiFramework.f13Works.uatProductPro.helper.logger.LoggerHelper;
 import com.uiFramework.f13Works.uatProductPro.testbase.TestBase;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class VerificationHelper {

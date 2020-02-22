@@ -5,26 +5,26 @@
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_20_02_2020_11_06_12.png'><img src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_20_02_2020_11_06_12.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'><img src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'height='100' width='100'/></a>]]>
     </line>
     <line>
       <![CDATA[captureScreen method called]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89740" started-at="2020-02-20T23:05:09 SGT" finished-at="2020-02-20T23:06:39 SGT">
+  <suite name="Default suite" duration-ms="47022" started-at="2020-02-21T22:10:45 SGT" finished-at="2020-02-21T22:11:32 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89740" started-at="2020-02-20T23:05:09 SGT" finished-at="2020-02-20T23:06:39 SGT">
+    <test name="Default test" duration-ms="47022" started-at="2020-02-21T22:10:45 SGT" finished-at="2020-02-21T22:11:32 SGT">
       <class name="com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeSuite" is-config="true" duration-ms="171" started-at="2020-02-20T23:05:09 SGT" finished-at="2020-02-20T23:05:09 SGT">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeSuite" is-config="true" duration-ms="166" started-at="2020-02-21T22:10:45 SGT" finished-at="2020-02-21T22:10:45 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeTest" is-config="true" duration-ms="15186" started-at="2020-02-20T23:05:09 SGT" finished-at="2020-02-20T23:05:24 SGT">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeTest" is-config="true" duration-ms="11375" started-at="2020-02-21T22:10:45 SGT" finished-at="2020-02-21T22:10:57 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2020-02-20T23:05:25 SGT" finished-at="2020-02-20T23:05:25 SGT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2020-02-21T22:10:57 SGT" finished-at="2020-02-21T22:10:57 SGT">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testLoginToApplication()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="testLoginToApplication" duration-ms="66508" started-at="2020-02-20T23:05:25 SGT" description="Login test with valid credentials" finished-at="2020-02-20T23:06:31 SGT">
+        <test-method status="FAIL" signature="testLoginToApplication()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="testLoginToApplication" duration-ms="32031" started-at="2020-02-21T22:10:57 SGT" description="Login test with valid credentials" finished-at="2020-02-21T22:11:29 SGT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -85,11 +85,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_20_02_2020_11_06_12.png'><img src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_20_02_2020_11_06_12.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'><img src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLoginToApplication -->
-        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="afterMethod" is-config="true" duration-ms="2369" started-at="2020-02-20T23:06:32 SGT" finished-at="2020-02-20T23:06:34 SGT">
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="afterMethod" is-config="true" duration-ms="1124" started-at="2020-02-21T22:11:29 SGT" finished-at="2020-02-21T22:11:31 SGT">
           <params>
             <param index="0">
               <value>
@@ -105,10 +105,10 @@ from unknown error: web view not found
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\janwa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.116, webStorageEnabled: true}
-Session ID: 99a9f6e262706d13566c5edfe63be7e5]]>
+Session ID: 9269ba7767b4bedaaeea7c4f30d8eac2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -117,10 +117,10 @@ from unknown error: web view not found
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\janwa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.116, webStorageEnabled: true}
-Session ID: 99a9f6e262706d13566c5edfe63be7e5
+Session ID: 9269ba7767b4bedaaeea7c4f30d8eac2
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -179,7 +179,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="afterTest" is-config="true" duration-ms="4936" started-at="2020-02-20T23:06:34 SGT" finished-at="2020-02-20T23:06:39 SGT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest@2c039ac6]" name="afterTest" is-config="true" duration-ms="1722" started-at="2020-02-21T22:11:31 SGT" finished-at="2020-02-21T22:11:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

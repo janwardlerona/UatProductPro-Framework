@@ -3,7 +3,7 @@ package com.uiFramework.f13Works.uatProductPro.helper.browserConfiguration.confi
 import com.uiFramework.f13Works.uatProductPro.helper.browserConfiguration.BrowserType;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public interface ConfigReader {

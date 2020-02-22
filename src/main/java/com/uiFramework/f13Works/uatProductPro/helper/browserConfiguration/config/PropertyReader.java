@@ -8,7 +8,7 @@ import com.uiFramework.f13Works.uatProductPro.helper.browserConfiguration.Browse
 import com.uiFramework.f13Works.uatProductPro.helper.resource.ResourceHelper;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class PropertyReader implements ConfigReader {

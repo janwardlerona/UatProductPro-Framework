@@ -24,10 +24,10 @@ import com.uiFramework.f13Works.uatProductPro.testbase.TestBase;
  * 
  * @author
  */
-public class ProductCategoryPage {
+public class MySupplyPage {
 
 	private WebDriver driver;
-	private final Logger log = LoggerHelper.getLogger(ProductCategoryPage.class);
+	private final Logger log = LoggerHelper.getLogger(MySupplyPage.class);
 	
 	WaitHelper waitHelper;
 	
@@ -53,12 +53,12 @@ public class ProductCategoryPage {
 	List<WebElement> allpriceElements;
 	
 	
-	public ProductCategoryPage(WebDriver driver) {
+	public MySupplyPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		waitHelper = new WaitHelper(driver);
 		waitHelper.waitForElement(catalogTextObj,ObjectReader.reader.getExplicitWait());
-		TestBase.logExtentReport("ProductCategoryPage object creatd...");
+		TestBase.logExtentReport("mySupplyPage object creatd...");
 		new TestBase().getNavigationScreen(driver);
 	}
 	

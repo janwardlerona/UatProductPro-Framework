@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import com.uiFramework.f13Works.uatProductPro.helper.logger.LoggerHelper;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author
  *
  */
 public class JavaScriptHelper {

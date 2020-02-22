@@ -1,7 +1,7 @@
 package com.uiFramework.f13Works.uatProductPro.helper.browserConfiguration.config;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class ObjectReader {

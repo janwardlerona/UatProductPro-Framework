@@ -53,18 +53,18 @@ public class SupplyNavigationMenu {
 		action.moveToElement(driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]"))).build().perform();
 	}
 	
-	public ProductCategoryPage clickOnIntem(String data){
+	public MyAccountPage clickOnIntem(String data){
 		log.info("clickin on :"+data);
 		TestBase.logExtentReport("clickin on :"+data);
 		driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]")).click();
-		return new ProductCategoryPage(driver);
+		return new MyAccountPage(driver);
 	}
 	
-	public ProductCategoryPage clickOnMenu(WebElement element){
+	public MyAccountPage clickOnMenu(WebElement element){
 		log.info("clickin on : "+element.getText());
 		TestBase.logExtentReport("clickin on : "+element.getText());
 		element.click();
-		return new ProductCategoryPage(driver);
+		return new MyAccountPage(driver);
 	}
 
 }

@@ -2,7 +2,7 @@ package com.uiFramework.f13Works.uatProductPro.helper.resource;
 
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class ResourceHelper {

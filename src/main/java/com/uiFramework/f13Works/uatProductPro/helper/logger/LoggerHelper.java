@@ -6,7 +6,7 @@ import org.apache.log4j.PropertyConfigurator;
 import com.uiFramework.f13Works.uatProductPro.helper.resource.ResourceHelper;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class LoggerHelper {

@@ -379,3 +379,19 @@
 2020-02-20 23:02:316 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
 2020-02-20 23:02:08 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
 2020-02-20 23:02:421 ERROR VerificationHelper:31 - element is not Displayed..
+2020-02-21 22:02:543 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-21 22:02:719 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-21 22:02:719 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-21 22:02:832 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-21 22:02:843 INFO  WaitHelper:146 - page is loaded
+2020-02-21 22:02:679 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-21 22:02:397 INFO  LoginPage:75 - entering email address....26929004604@app.f13works.com
+2020-02-21 22:02:904 INFO  LoginPage:81 - entering password....26929004604
+2020-02-21 22:02:210 INFO  LoginPage:87 - clicking on submit button...
+2020-02-21 22:02:375 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-21 22:02:668 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (9269ba7767b4bedaaeea7c4f30d8eac2)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-21 22:02:775 INFO  WaitHelper:159 - element is visible now
+2020-02-21 22:02:776 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-21 22:02:778 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-21 22:02:725 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-21 22:02:547 ERROR VerificationHelper:31 - element is not Displayed..
