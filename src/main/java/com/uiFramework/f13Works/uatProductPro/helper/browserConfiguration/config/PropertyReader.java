@@ -55,18 +55,34 @@ public class PropertyReader implements ConfigReader {
 		return OR.getProperty("applicationUrl");
 	}
 
-	public String getUserName() {
-		if(System.getProperty("userName")!=null){
-			return System.getProperty("userName");
+	//Supply Environment
+	public String getEmailSupply() {
+		if(System.getProperty("emailSupply")!=null){
+			return System.getProperty("emailSupply");
 		}
-		return OR.getProperty("userName");
+		return OR.getProperty("emailSupply");
 	}
 
-	public String getPassword() {
-		if(System.getProperty("password")!=null){
-			return System.getProperty("password");
+	public String getPasswordSupply() {
+		if(System.getProperty("passwordSupply")!=null){
+			return System.getProperty("passwordSupply");
 		}
-		return OR.getProperty("password");
+		return OR.getProperty("passwordSupply");
+	}
+	
+	//Retail Environment
+	public String getEmailRetail() {
+		if(System.getProperty("emailRetail")!=null){
+			return System.getProperty("emailRetail");
+		}
+		return OR.getProperty("emailSupply");
+	}
+
+	public String getPasswordRetail() {
+		if(System.getProperty("passwordRetail")!=null){
+			return System.getProperty("passwordRetail");
+		}
+		return OR.getProperty("passwordRetail");
 	}
 
 }

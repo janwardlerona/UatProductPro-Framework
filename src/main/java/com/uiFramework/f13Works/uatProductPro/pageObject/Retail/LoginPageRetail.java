@@ -1,4 +1,4 @@
-package com.uiFramework.f13Works.uatProductPro.pageObjectSupply;
+package com.uiFramework.f13Works.uatProductPro.pageObject.Retail;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -19,44 +19,27 @@ import com.uiFramework.f13Works.uatProductPro.testbase.TestBase;
  * 
  * @author 
  */
-public class LoginPage{
+public class LoginPageRetail{
 	
 	private WebDriver driver;
-	private final Logger log = LoggerHelper.getLogger(LoginPage.class);
+	private final Logger log = LoggerHelper.getLogger(LoginPageRetail.class);
 	
 	WaitHelper waitHelper;
 	
-	//@FindBy(xpath="//div[contains(text(),'app.uat.f13works.com')]")
-	//WebElement shopifyAppLink;
-	
 	@FindBy(xpath="//*[contains(@id,'mat-input')]")
-	WebElement emailAddress;
+	WebElement emailRetail;
 	
 	@FindBy(xpath="//input[@id='mat-input-1']")
-	WebElement password;
+	WebElement passwordRetail;
 	
 	@FindBy(xpath="//button[@class='mat-flat-button mat-button-base mat-primary']")
 	WebElement submitLogin;
 	
 	@FindBy(xpath="//*[@id='center_column']/p")
-	WebElement successMsgObject;
+	WebElement productProLogo;
 	
-	@FindBy(xpath="//*[@id='email_create']")
-	WebElement registrationEmailAddress;
-	
-	@FindBy(xpath="//*[@id='SubmitCreate']")
-	WebElement createAnAccount;
-	
-	@FindBy(xpath="//*[@id='center_column']/h1")
-	WebElement authenticate;
-	
-	@FindBy(xpath="//*[@id='create-account_form']/div/p")
-	WebElement createAnAccountMessage;
-	
-	@FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[2]/a")
-	WebElement logout;
 
-	public LoginPage(WebDriver driver) {
+	public LoginPageRetail(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		//waitHelper.waitForElement(shopifyAppLink,ObjectReader.reader.getExplicitWait());
@@ -71,47 +54,37 @@ public class LoginPage{
 	//	shopifyAppLink.click();
 	//}
 	
-	public void enterEmailAddress(String emailAddress){
-		log.info("entering email address...."+emailAddress);
-		logExtentReport("entering email address...."+emailAddress);
-		this.emailAddress.sendKeys(emailAddress);
+	public void enterEmailRetail(String emailRetail){
+		log.info("entering emailRetail...."+emailRetail);
+		logExtentReport("entering emailRetail...."+emailRetail);
+		this.emailRetail.sendKeys(emailRetail);
 	}
 	
-	public void enterPassword(String password){
-		log.info("entering password...."+password);
-		logExtentReport("entering password...."+password);
-		this.password.sendKeys(password);
+	public void enterPasswordRetail(String passwordRetail){
+		log.info("entering passwordRetail...."+passwordRetail);
+		logExtentReport("entering passwordRetail...."+passwordRetail);
+		this.passwordRetail.sendKeys(passwordRetail);
 	}
 	
 	public SupplyNavigationMenu clickOnSubmitButton(){
 		log.info("clicking on submit button...");
 		logExtentReport("clicking on submit button...");
-		//JavaScriptHelper javaScriptHelper = new JavaScriptHelper(driver);
-		//javaScriptHelper.scrollDownVertically();
-		//new JavaScriptHelper(driver).scrollDownVertically();
 		submitLogin.click();
 		return new SupplyNavigationMenu(driver);
 	}
 	
-	public boolean verifySuccessLoginMsg(){
-		return new VerificationHelper(driver).isDisplayed(successMsgObject);
+	public String validateLoginPageTitle(){
+		return driver.getTitle();
 	}
 	
-	public void enterRegistrationEmail(){
-		String email = System.currentTimeMillis()+"@gmail.com";
-		log.info("entering registration email.."+email);
-		registrationEmailAddress.sendKeys(email);	
+	public boolean validateProductProImage(){
+		return productProLogo.isDisplayed();
 	}
 	
-	public RegistrationPage clickOnCreateAnAccount(){
-		createAnAccount.click();
-		return new RegistrationPage(driver);
-	}
 	
-	public void loginToApplication(String emailAddress, String password){
-		//clickOnSignInLink();
-		enterEmailAddress(emailAddress);
-		enterPassword(password);
+	public void loginToApplicationRetail(String emailRetail, String passwordRetail){
+		enterEmailRetail(emailRetail);
+		enterPasswordRetail(passwordRetail);
 		clickOnSubmitButton();
 	}
 	

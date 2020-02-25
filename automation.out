@@ -395,3 +395,143 @@
 2020-02-21 22:02:778 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
 2020-02-21 22:02:725 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
 2020-02-21 22:02:547 ERROR VerificationHelper:31 - element is not Displayed..
+2020-02-22 20:02:96 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-22 20:02:107 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-22 20:02:108 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-22 20:02:207 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-22 20:02:214 INFO  WaitHelper:146 - page is loaded
+2020-02-22 20:02:235 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-22 20:02:965 INFO  LoginPage:75 - entering email address....26929004604@app.f13works.com
+2020-02-22 20:02:34 INFO  LoginPage:81 - entering password....26929004604
+2020-02-22 20:02:248 INFO  LoginPage:87 - clicking on submit button...
+2020-02-22 20:02:377 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-22 21:02:478 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (0a797d3058c8bbde7bce709c34b35f2b)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-22 21:02:768 INFO  WaitHelper:159 - element is visible now
+2020-02-22 21:02:769 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-22 21:02:275 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-22 21:02:464 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-22 21:02:358 ERROR VerificationHelper:31 - element is not Displayed..
+2020-02-24 22:02:900 INFO  TestBase:135 - Initialize Web driver: 1541525668
+2020-02-24 22:02:45 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-24 22:02:46 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-24 22:02:167 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-24 22:02:171 INFO  WaitHelper:146 - page is loaded
+2020-02-24 22:02:527 INFO  TestBase:76 - **************testLoginToApplicationStarted***************
+2020-02-24 22:02:389 INFO  LoginPage:75 - entering email address....26929004604@app.f13works.com
+2020-02-24 22:02:629 INFO  LoginPage:81 - entering password....26929004604
+2020-02-24 22:02:01 INFO  LoginPage:87 - clicking on submit button...
+2020-02-24 22:02:583 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-24 22:02:278 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (763806f198919d4c5dc247f39fe958c2)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-24 22:02:410 INFO  WaitHelper:159 - element is visible now
+2020-02-24 22:02:413 INFO  TestBase:168 - capturing ui navigation screen...
+2020-02-24 22:02:712 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-25 23:02:05 INFO  TestBase:134 - Initialize Web driver: 1541525668
+2020-02-25 23:02:130 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-25 23:02:131 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-25 23:02:225 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-25 23:02:232 INFO  WaitHelper:146 - page is loaded
+2020-02-25 23:02:503 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-25 23:02:145 INFO  TestBase:134 - Initialize Web driver: 1541525668
+2020-02-25 23:02:151 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-25 23:02:151 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-25 23:02:161 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-25 23:02:170 INFO  WaitHelper:146 - page is loaded
+2020-02-25 23:02:344 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-25 23:02:259 INFO  LoginPage:58 - entering emailSupply....26929004604@app.f13works.com
+2020-02-25 23:02:63 INFO  LoginPage:64 - entering passwordSupply....26929004604
+2020-02-25 23:02:255 INFO  LoginPage:70 - clicking on submit button...
+2020-02-25 23:02:434 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-25 23:02:223 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (8bfeda0ff1cfc1211ea99a70e742a37f)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-25 23:02:499 INFO  WaitHelper:159 - element is visible now
+2020-02-25 23:02:500 INFO  TestBase:167 - capturing ui navigation screen...
+2020-02-25 23:02:502 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-25 23:02:561 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-25 23:02:615 INFO  TestBase:93 - **************testLoginToApplicationFinished***************
+2020-02-26 00:02:128 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 00:02:266 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 00:02:267 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 00:02:320 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 00:02:328 INFO  WaitHelper:146 - page is loaded
+2020-02-26 00:02:596 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 00:02:100 INFO  LoginPage:58 - entering emailSupply....26929004604@app.f13works.com
+2020-02-26 00:02:880 INFO  LoginPage:64 - entering passwordSupply....26929004604
+2020-02-26 00:02:98 INFO  LoginPage:70 - clicking on submit button...
+2020-02-26 00:02:309 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 00:02:797 INFO  WaitHelper:156 - waiting for :[[ChromeDriver: chrome on XP (6580b9382b23708f2bcf3f8942a29e31)] -> xpath: //span[@class='button-text'][contains(text(),'My supply')]] for :200 seconds
+2020-02-26 00:02:959 INFO  WaitHelper:159 - element is visible now
+2020-02-26 00:02:960 INFO  TestBase:167 - capturing ui navigation screen...
+2020-02-26 00:02:26 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-26 00:02:874 INFO  JavaScriptHelper:22 - JavaScriptHelper has been initialised
+2020-02-26 00:02:598 INFO  TestBase:93 - **************testLoginToApplicationFinished***************
+2020-02-26 01:02:09 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:40 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:43 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:95 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:104 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:320 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:579 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:88 INFO  LoginPageRetail:58 - entering emailRetail....24868094032
+2020-02-26 01:02:227 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:758 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:303 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:319 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:320 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:347 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:354 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:777 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:123 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:668 INFO  LoginPageRetail:58 - entering emailRetail....24868094032
+2020-02-26 01:02:828 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:65 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:208 INFO  TestBase:134 - Initialize Web driver: 2100440237
+2020-02-26 01:02:567 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:568 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:659 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:667 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:155 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:415 INFO  LoginPageSupply:59 - entering emailSupply....26929004604@app.f13works.com
+2020-02-26 01:02:906 INFO  LoginPageSupply:65 - entering passwordSupply....26929004604
+2020-02-26 01:02:171 INFO  LoginPageSupply:71 - clicking on submit button...
+2020-02-26 01:02:813 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:129 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:139 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:140 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:152 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:157 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:337 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:655 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:892 INFO  LoginPageRetail:58 - entering emailRetail....24868094032
+2020-02-26 01:02:40 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:204 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:829 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:862 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:862 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:872 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:881 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:76 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:188 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:121 INFO  LoginPageRetail:64 - entering passwordRetail....24868094032
+2020-02-26 01:02:315 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:433 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:310 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:151 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:151 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:471 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:480 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:919 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:659 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:585 INFO  LoginPageRetail:64 - entering passwordRetail....24868094032
+2020-02-26 01:02:944 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:168 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:551 INFO  WaitHelper:156 - waiting for :Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='button-text'][contains(text(),'My supply')]' for :200 seconds
+2020-02-26 01:02:27 INFO  TestBase:134 - Initialize Web driver: 1096485705
+2020-02-26 01:02:713 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:715 INFO  WaitHelper:41 - Implicit Wait has been set to: 120
+2020-02-26 01:02:804 INFO  WaitHelper:144 - waiting for page to load for : SECONDS seconds
+2020-02-26 01:02:811 INFO  WaitHelper:146 - page is loaded
+2020-02-26 01:02:235 INFO  TestBase:75 - **************testLoginToApplicationStarted***************
+2020-02-26 01:02:241 INFO  LoginPageRetail:58 - entering emailRetail....26929004604@app.f13works.com
+2020-02-26 01:02:703 INFO  LoginPageRetail:64 - entering passwordRetail....24868094032
+2020-02-26 01:02:943 INFO  LoginPageRetail:70 - clicking on submit button...
+2020-02-26 01:02:197 INFO  WaitHelper:31 - WaitHelper object created..
+2020-02-26 01:02:166 INFO  TestBase:93 - **************testLoginToApplicationFinished***************

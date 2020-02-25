@@ -1,4 +1,4 @@
-package com.uiFramework.f13Works.uatProductPro.pageObjectSupply;
+package com.uiFramework.f13Works.uatProductPro.pageObject.Supply;
 
 import java.util.Iterator;
 import java.util.List;

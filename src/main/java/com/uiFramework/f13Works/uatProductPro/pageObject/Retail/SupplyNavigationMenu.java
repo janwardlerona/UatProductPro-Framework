@@ -1,4 +1,4 @@
-package com.uiFramework.f13Works.uatProductPro.pageObjectSupply;
+package com.uiFramework.f13Works.uatProductPro.pageObject.Retail;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -42,7 +42,7 @@ public class SupplyNavigationMenu {
 		PageFactory.initElements(driver, this);
 		waitHelper = new WaitHelper(driver);
 		waitHelper.waitForElement(mySupplyMenu, ObjectReader.reader.getExplicitWait());
-		TestBase.logExtentReport("NavigationMenu object created");
+		TestBase.logExtentReport("SupplyNavigationMenu object created");
 		new TestBase().getNavigationScreen(driver);
 	}
 	
@@ -53,18 +53,5 @@ public class SupplyNavigationMenu {
 		action.moveToElement(driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]"))).build().perform();
 	}
 	
-	public MyAccountPage clickOnIntem(String data){
-		log.info("clickin on :"+data);
-		TestBase.logExtentReport("clickin on :"+data);
-		driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]")).click();
-		return new MyAccountPage(driver);
-	}
-	
-	public MyAccountPage clickOnMenu(WebElement element){
-		log.info("clickin on : "+element.getText());
-		TestBase.logExtentReport("clickin on : "+element.getText());
-		element.click();
-		return new MyAccountPage(driver);
-	}
 
 }

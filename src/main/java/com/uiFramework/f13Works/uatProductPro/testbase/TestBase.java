@@ -38,14 +38,13 @@ import com.uiFramework.f13Works.uatProductPro.helper.javaScript.JavaScriptHelper
 import com.uiFramework.f13Works.uatProductPro.helper.logger.LoggerHelper;
 import com.uiFramework.f13Works.uatProductPro.helper.resource.ResourceHelper;
 import com.uiFramework.f13Works.uatProductPro.helper.wait.WaitHelper;
-import com.uiFramework.f13Works.uatProductPro.pageObjectSupply.LoginPage;
-import com.uiFramework.f13Works.uatProductPro.pageObjectSupply.MyAccountPage;
-import com.uiFramework.f13Works.uatProductPro.pageObjectSupply.RegistrationPage;
-import com.uiFramework.f13Works.uatProductPro.pageObjectSupply.SupplyNavigationMenu;
+import com.uiFramework.f13Works.uatProductPro.pageObject.Supply.LoginPageSupply;
+import com.uiFramework.f13Works.uatProductPro.pageObject.Supply.RegistrationPage;
+import com.uiFramework.f13Works.uatProductPro.pageObject.Supply.SupplyNavigationMenu;
 import com.uiFramework.f13Works.uatProductPro.utils.ExtentManager;
 /**
  * 
- * @author Bhanu Pratap Singh
+ * @author 
  *
  */
 public class TestBase {

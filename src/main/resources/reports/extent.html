@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Feb 20, 2020 10:22:55 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 26, 2020 01:14:39 AM</span>
 				</a>
 			</li>
 			<li>
@@ -124,15 +124,15 @@
 				
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>LoginTest</span>
-						<span class='test-time'>Feb 20, 2020 10:23:08 PM</span>
+						<span class='test-name'>LoginTestRetail</span>
+						<span class='test-time'>Feb 26, 2020 01:14:45 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Feb 20, 2020 10:23:08 PM</span>
-	<span class='label end-time'>Feb 20, 2020 10:23:20 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+347ms</span>
+	<span class='label start-time'>Feb 26, 2020 01:14:45 AM</span>
+	<span class='label end-time'>Feb 26, 2020 01:22:55 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 8m 10s+259ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -146,20 +146,45 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:23:08 PM</td>
+					<td class='timestamp'>1:14:45 AM</td>
 					<td class='step-details'>testLoginToApplication**************test started***************</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>10:23:20 PM</td>
-					<td class='step-details'>navigating to ...https://f13-works-qa-retail.myshopify.com/admin/apps</td>
+					<td class='timestamp'>1:14:51 AM</td>
+					<td class='step-details'>navigating to ...https://app.uat.f13works.com/login</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:51 AM</td>
+					<td class='step-details'>Login Page Object Created</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:51 AM</td>
+					<td class='step-details'>entering emailRetail....26929004604@app.f13works.com</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:54 AM</td>
+					<td class='step-details'>entering passwordRetail....24868094032</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>1:14:54 AM</td>
+					<td class='step-details'>clicking on submit button...</td>
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>10:23:20 PM</td>
-					<td class='step-details'><textarea>java.lang.NullPointerException
-	at com.uiFramework.f13Works.uatProductPro.pageObject.LoginPage.<init>(LoginPage.java:62)
-	at com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplication(LoginTest.java:22)
+					<td class='timestamp'>1:22:55 AM</td>
+					<td class='step-details'><textarea>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='button-text'][contains(text(),'My supply')]' (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.uiFramework.f13Works.uatProductPro.helper.wait.WaitHelper.waitForElement(WaitHelper.java:158)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.SupplyNavigationMenu.<init>(SupplyNavigationMenu.java:44)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.clickOnSubmitButton(LoginPageRetail.java:73)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.loginToApplicationRetail(LoginPageRetail.java:88)
+	at com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail.testLoginToApplication(LoginTestRetail.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -188,13 +213,49 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='button-text'][contains(text(),'My supply')]"}
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\janwa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.122, webStorageEnabled: true}
+Session ID: f80081ecfd8841f1f25532a1a68fa7e1
+*** Element info: {Using=xpath, value=//span[@class='button-text'][contains(text(),'My supply')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 33 more
 </textarea></td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png' width='10%' src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png' data-src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_20_02_2020_10_23_20.png'></li>
+								<li><img data-featherlight='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_26_02_2020_01_22_55.png' width='10%' src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_26_02_2020_01_22_55.png' data-src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\testLoginToApplication_26_02_2020_01_22_55.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -249,7 +310,7 @@
 					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='66.667%'>2</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='14.286%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='85.714%'>6</span> others
 				</div>
 			</div>
 		</div>
@@ -286,7 +347,7 @@
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.NullPointerException</span>
+                                <span class='exception-name'>org.openqa.selenium.TimeoutException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -301,11 +362,16 @@
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Feb 20, 2020 10:23:08 PM</td>
-                                                        <td class='linked' test-id='1'>LoginTest</td>
-                                                        <td><pre><textarea>java.lang.NullPointerException
-	at com.uiFramework.f13Works.uatProductPro.pageObject.LoginPage.<init>(LoginPage.java:62)
-	at com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplication(LoginTest.java:22)
+                                                        <td>Feb 26, 2020 01:14:45 AM</td>
+                                                        <td class='linked' test-id='1'>LoginTestRetail</td>
+                                                        <td><pre><textarea>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='button-text'][contains(text(),'My supply')]' (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.uiFramework.f13Works.uatProductPro.helper.wait.WaitHelper.waitForElement(WaitHelper.java:158)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.SupplyNavigationMenu.<init>(SupplyNavigationMenu.java:44)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.clickOnSubmitButton(LoginPageRetail.java:73)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.loginToApplicationRetail(LoginPageRetail.java:88)
+	at com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail.testLoginToApplication(LoginTestRetail.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -334,6 +400,42 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='button-text'][contains(text(),'My supply')]"}
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-3NNMNIV', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\janwa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.122, webStorageEnabled: true}
+Session ID: f80081ecfd8841f1f25532a1a68fa7e1
+*** Element info: {Using=xpath, value=//span[@class='button-text'][contains(text(),'My supply')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 33 more
 </textarea></pre></td>
                                                     </tr>
                                         </tbody>
@@ -366,25 +468,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Feb 20, 2020 10:22:55 PM</div>
+					<div class='panel-lead'>Feb 26, 2020 01:14:39 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Feb 20, 2020 10:23:22 PM</div>
+			 		<div class='panel-lead'>Feb 26, 2020 01:22:56 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 26s+959ms</div>
+					<div class='panel-lead'>0h 8m 16s+410ms</div>
 				</div>
 			</div>
 		</div>
@@ -411,7 +513,7 @@
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 2,
+				infoChild: 6,
 				exceptionsChild: 1,
 				
 				passGrandChild: 0,

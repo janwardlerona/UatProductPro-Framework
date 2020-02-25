@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\janwa\AppData\Local\Temp\testng-eclipse-1177806734\testng-customsuite.xml</span>
+                    <span>C:\Users\janwa\AppData\Local\Temp\testng-eclipse-2082464395\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest" hash-for-method="testLoginToApplication">testLoginToApplication</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail" hash-for-method="testLoginToApplication">testLoginToApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,7 +120,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest</span>
+              <span class="class-name">com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -128,14 +128,14 @@
                   <a name="testLoginToApplication">
                   </a> <!-- testLoginToApplication -->
                   <span class="method-name">testLoginToApplication</span>
-                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at com.uiFramework.f13Works.uatProductPro.helper.assertion.AssertionHelper.fail(AssertionHelper.java:60)
-	at com.uiFramework.f13Works.uatProductPro.helper.assertion.AssertionHelper.updateTestStatus(AssertionHelper.java:72)
-	at com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplication(LoginTest.java:28)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@class=&apos;button-text&apos;][contains(text(),&apos;My supply&apos;)]&apos; (tried for 200 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.uiFramework.f13Works.uatProductPro.helper.wait.WaitHelper.waitForElement(WaitHelper.java:158)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.SupplyNavigationMenu.&lt;init&gt;(SupplyNavigationMenu.java:44)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.clickOnSubmitButton(LoginPageRetail.java:73)
+	at com.uiFramework.f13Works.uatProductPro.pageObjectRetail.LoginPageRetail.loginToApplicationRetail(LoginPageRetail.java:88)
+	at com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail.testLoginToApplication(LoginTestRetail.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -164,6 +164,42 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;button-text&apos;][contains(text(),&apos;My supply&apos;)]&quot;}
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-3NNMNIV&apos;, ip: &apos;192.168.137.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\janwa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.122, webStorageEnabled: true}
+Session ID: f80081ecfd8841f1f25532a1a68fa7e1
+*** Element info: {Using=xpath, value=//span[@class=&apos;button-text&apos;][contains(text(),&apos;My supply&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 33 more
 
 </div> <!-- stack-trace -->
                   <em>
@@ -175,7 +211,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\janwa\AppData\Local\Temp\testng-eclipse-1177806734\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\janwa\AppData\Local\Temp\testng-eclipse-2082464395\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,7 +220,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -227,13 +263,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLoginToApplication')
-data.setCell(0, 2, 'com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest')
-data.setCell(0, 3, 32031);
+data.setCell(0, 2, 'com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail')
+data.setCell(0, 3, 490172);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -244,13 +280,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testLoginToApplication</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'><img src='C:\Users\janwa\git\testFramework\src\main\resources\screenShots\blank_21_02_2020_10_11_23.png'height='100' width='100'/></a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -266,34 +295,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">171 ms</span>
+                <span class="method-start">183 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.uiFramework.f13Works.uatProductPro.testScripts.loginPage.LoginTest.testLoginToApplic...)</span>
-                <span class="method-start">12085 ms</span>
+                <span class="method-name">beforeMethod(public void com.uiFramework.f13Works.uatProductPro.testScripts.Retail.LoginTestRetail.testLoginToApp...)</span>
+                <span class="method-start">5364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginToApplication</span>
-                <span class="method-start">12102 ms</span>
+                <span class="method-start">5380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">afterMethod([TestResult name=testLoginToApplication status=FAILURE method=LoginTest.testLoginToApplication()[pri...)</span>
-                <span class="method-start">44306 ms</span>
+                <span class="method-name">afterMethod([TestResult name=testLoginToApplication status=FAILURE method=LoginTestRetail.testLoginToApplication...)</span>
+                <span class="method-start">495572 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">45466 ms</span>
+                <span class="method-start">498369 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

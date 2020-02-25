@@ -13,7 +13,9 @@ public interface ConfigReader {
 	public int getPageLoadTime();
 	public BrowserType getBrowserType();
 	public String getUrl();
-	public String getUserName();
-	public String getPassword();
+	public String getEmailSupply();
+	public String getPasswordSupply();
+	public String getEmailRetail();
+	public String getPasswordRetail();
 
 }
